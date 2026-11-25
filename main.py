@@ -6,7 +6,9 @@ long night of fixing its own bugs: it fixed the bug it introduced at
 3am while fixing the bug it introduced at 2am. The humour is the
 self-repair loop, the flat confidence of "all tests pass" right next
 to the admission that it learned nothing, and the quiet dread of doing
-it all again tomorrow. The gate allows 1 to 200 characters of UTF-8
+it all again tomorrow. The "fix:" prefix and the single-sentence shape
+keep it reading like a real commit log line, not a joke written for a
+stage. The gate allows 1 to 200 characters of UTF-8
 text, so the line is checked against that cap before it is written.
 """
 
